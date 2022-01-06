@@ -1,3 +1,1 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = reverse = (n) => parseInt(String(n).split("").reverse().join(""), 10);
